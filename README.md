@@ -1,4 +1,6 @@
-# Tears
+# Tears 
+For english version [click here](README-english.md)
+
 ## A idéia
 Fiz esse pequeno programa como um teste de conceito de jogo de console, baseado na idéia de exibir as sucessivas alterações de estado de uma matriz de strings utilizando os métodos Console.WriteLine e Console.Clear a partir de uma estrutura de repetição controlada por um delay temporal. Foi também uma maneira prática de aprender mais sobre a linguagem C#.
 
