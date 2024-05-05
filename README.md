@@ -6,7 +6,7 @@ Fiz esse pequeno programa como um teste de conceito de jogo de console, baseado 
 Você precisa atravessar o a chuva de lagrimas e chegar ao topo. Não há aplousos por isso, nem final de jogo.
 
 ## Compilação
-Para compilar em um executavel autosuficiente e xecute o comando correspendente no terminal, na pasta do código fonte:
+Para compilar em um executavel autosuficiente, acessa o diretório do jogo pelo terminal e execute o comando correspendente ao seu sistema operacional:
 
 ### Windows:
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
