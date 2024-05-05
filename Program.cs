@@ -10,10 +10,12 @@ internal class Program
         GameScreen gameScreen = new GameScreen(frameMatrix);
         gameScreen.InsertProtagonistChar();
         
-        string instruction = "\n\nVocê precisa atravessar o a chuva de lagrimas e chegar ao topo\n\nNão haverá aplousos por isso, nem final de jogo.\n\nPressione ENTER para começar".ToUpper();
+        string instruction = "\n\nVocê precisa atravessar a chuva de lagrimas e chegar ao topo\n\nNão haverá aplousos por isso, nem final de jogo\n\n\n\n\n\nPressione ENTER para começar".ToUpper();
 
         Console.Clear();
         Console.WriteLine(instruction);
+        Console.WriteLine("\n\n\n\n\n\nCriador: Filipe Chagas");
+
 
         while (Console.ReadKey(true).Key != ConsoleKey.Enter) { };
         
